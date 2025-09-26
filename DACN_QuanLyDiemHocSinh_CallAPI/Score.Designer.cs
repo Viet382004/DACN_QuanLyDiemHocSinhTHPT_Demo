@@ -54,13 +54,11 @@
             this.btnFInd = new System.Windows.Forms.Button();
             this.cbxSubjectID = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.cbxClassID = new System.Windows.Forms.ComboBox();
+            this.cbxStudentID = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnNew = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
             this.txbLastTest = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
@@ -69,6 +67,10 @@
             this.label11 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
+            this.btnFindStuID = new System.Windows.Forms.Button();
+            this.btnFindSubID = new System.Windows.Forms.Button();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -249,11 +251,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 452);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 477);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1055, 237);
+            this.dataGridView1.Size = new System.Drawing.Size(1231, 276);
             this.dataGridView1.TabIndex = 11;
             this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
@@ -271,14 +273,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1079, 71);
+            this.panel1.Size = new System.Drawing.Size(1243, 71);
             this.panel1.TabIndex = 8;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft JhengHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(267, 18);
+            this.label1.Location = new System.Drawing.Point(476, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(375, 42);
             this.label1.TabIndex = 2;
@@ -286,53 +288,57 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnFindSubID);
+            this.panel2.Controls.Add(this.btnFindStuID);
             this.panel2.Controls.Add(this.btnFInd);
             this.panel2.Controls.Add(this.cbxSubjectID);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.cbxClassID);
+            this.panel2.Controls.Add(this.cbxStudentID);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(12, 93);
+            this.panel2.Location = new System.Drawing.Point(12, 77);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1055, 50);
+            this.panel2.Size = new System.Drawing.Size(1231, 100);
             this.panel2.TabIndex = 9;
             // 
             // btnFInd
             // 
             this.btnFInd.BackColor = System.Drawing.Color.Cyan;
             this.btnFInd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnFInd.Location = new System.Drawing.Point(835, 7);
+            this.btnFInd.Location = new System.Drawing.Point(921, 25);
             this.btnFInd.Name = "btnFInd";
-            this.btnFInd.Size = new System.Drawing.Size(144, 39);
+            this.btnFInd.Size = new System.Drawing.Size(177, 49);
             this.btnFInd.TabIndex = 5;
             this.btnFInd.Text = "Tìm kiếm";
             this.btnFInd.UseVisualStyleBackColor = false;
+            this.btnFInd.Click += new System.EventHandler(this.btnFInd_Click);
             // 
             // cbxSubjectID
             // 
             this.cbxSubjectID.FormattingEnabled = true;
-            this.cbxSubjectID.Location = new System.Drawing.Point(513, 16);
+            this.cbxSubjectID.Location = new System.Drawing.Point(614, 16);
             this.cbxSubjectID.Name = "cbxSubjectID";
-            this.cbxSubjectID.Size = new System.Drawing.Size(128, 24);
+            this.cbxSubjectID.Size = new System.Drawing.Size(102, 24);
             this.cbxSubjectID.TabIndex = 4;
+            this.cbxSubjectID.SelectedIndexChanged += new System.EventHandler(this.cbxSubjectID_SelectedIndexChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(384, 16);
+            this.label2.Location = new System.Drawing.Point(447, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(123, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Mã môn học :";
             // 
-            // cbxClassID
+            // cbxStudentID
             // 
-            this.cbxClassID.FormattingEnabled = true;
-            this.cbxClassID.Location = new System.Drawing.Point(137, 16);
-            this.cbxClassID.Name = "cbxClassID";
-            this.cbxClassID.Size = new System.Drawing.Size(128, 24);
-            this.cbxClassID.TabIndex = 2;
-            this.cbxClassID.SelectedIndexChanged += new System.EventHandler(this.cbxClassID_SelectedIndexChanged);
+            this.cbxStudentID.FormattingEnabled = true;
+            this.cbxStudentID.Location = new System.Drawing.Point(186, 16);
+            this.cbxStudentID.Name = "cbxStudentID";
+            this.cbxStudentID.Size = new System.Drawing.Size(102, 24);
+            this.cbxStudentID.TabIndex = 2;
+            this.cbxStudentID.SelectedIndexChanged += new System.EventHandler(this.cbxClassID_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -346,10 +352,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.panel12);
             this.groupBox1.Controls.Add(this.btnNew);
-            this.groupBox1.Controls.Add(this.btnDelete);
             this.groupBox1.Controls.Add(this.btnUpdate);
-            this.groupBox1.Controls.Add(this.btnAdd);
             this.groupBox1.Controls.Add(this.panel11);
             this.groupBox1.Controls.Add(this.panel10);
             this.groupBox1.Controls.Add(this.panel9);
@@ -359,9 +365,9 @@
             this.groupBox1.Controls.Add(this.panel5);
             this.groupBox1.Controls.Add(this.panel4);
             this.groupBox1.Controls.Add(this.panel3);
-            this.groupBox1.Location = new System.Drawing.Point(12, 149);
+            this.groupBox1.Location = new System.Drawing.Point(12, 183);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1055, 297);
+            this.groupBox1.Size = new System.Drawing.Size(1231, 288);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Quản lý điểm";
@@ -370,51 +376,30 @@
             // 
             this.btnNew.BackColor = System.Drawing.Color.Chartreuse;
             this.btnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnNew.Location = new System.Drawing.Point(790, 233);
+            this.btnNew.Location = new System.Drawing.Point(390, 233);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(130, 45);
             this.btnNew.TabIndex = 15;
             this.btnNew.Text = "Làm mới";
             this.btnNew.UseVisualStyleBackColor = false;
             // 
-            // btnDelete
-            // 
-            this.btnDelete.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnDelete.Location = new System.Drawing.Point(538, 233);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(130, 45);
-            this.btnDelete.TabIndex = 13;
-            this.btnDelete.Text = "Xóa";
-            this.btnDelete.UseVisualStyleBackColor = false;
-            // 
             // btnUpdate
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.Chartreuse;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnUpdate.Location = new System.Drawing.Point(295, 233);
+            this.btnUpdate.Location = new System.Drawing.Point(118, 233);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(130, 45);
             this.btnUpdate.TabIndex = 12;
             this.btnUpdate.Text = "Cập nhật";
             this.btnUpdate.UseVisualStyleBackColor = false;
-            // 
-            // btnAdd
-            // 
-            this.btnAdd.BackColor = System.Drawing.Color.Chartreuse;
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnAdd.Location = new System.Drawing.Point(61, 233);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(130, 45);
-            this.btnAdd.TabIndex = 11;
-            this.btnAdd.Text = "Thêm ";
-            this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // panel11
             // 
             this.panel11.Controls.Add(this.txbLastTest);
             this.panel11.Controls.Add(this.label12);
-            this.panel11.Location = new System.Drawing.Point(763, 178);
+            this.panel11.Location = new System.Drawing.Point(664, 178);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(204, 40);
             this.panel11.TabIndex = 3;
@@ -440,7 +425,7 @@
             // 
             this.panel10.Controls.Add(this.txb45p);
             this.panel10.Controls.Add(this.label11);
-            this.panel10.Location = new System.Drawing.Point(426, 178);
+            this.panel10.Location = new System.Drawing.Point(366, 178);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(204, 40);
             this.panel10.TabIndex = 3;
@@ -468,7 +453,7 @@
             this.panel9.Controls.Add(this.label10);
             this.panel9.Location = new System.Drawing.Point(61, 178);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(204, 40);
+            this.panel9.Size = new System.Drawing.Size(212, 40);
             this.panel9.TabIndex = 2;
             // 
             // label10
@@ -481,11 +466,56 @@
             this.label10.TabIndex = 0;
             this.label10.Text = "Điểm kiểm tra :";
             // 
+            // btnFindStuID
+            // 
+            this.btnFindStuID.BackColor = System.Drawing.Color.Cyan;
+            this.btnFindStuID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnFindStuID.Location = new System.Drawing.Point(26, 46);
+            this.btnFindStuID.Name = "btnFindStuID";
+            this.btnFindStuID.Size = new System.Drawing.Size(148, 43);
+            this.btnFindStuID.TabIndex = 6;
+            this.btnFindStuID.Text = "Tìm theo mã hs";
+            this.btnFindStuID.UseVisualStyleBackColor = false;
+            this.btnFindStuID.Click += new System.EventHandler(this.btnFindStuID_Click);
+            // 
+            // btnFindSubID
+            // 
+            this.btnFindSubID.BackColor = System.Drawing.Color.Cyan;
+            this.btnFindSubID.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btnFindSubID.Location = new System.Drawing.Point(460, 46);
+            this.btnFindSubID.Name = "btnFindSubID";
+            this.btnFindSubID.Size = new System.Drawing.Size(148, 43);
+            this.btnFindSubID.TabIndex = 7;
+            this.btnFindSubID.Text = "Tìm theo mã môn";
+            this.btnFindSubID.UseVisualStyleBackColor = false;
+            this.btnFindSubID.Click += new System.EventHandler(this.btnFindSubID_Click);
+            // 
+            // panel12
+            // 
+            this.panel12.BackgroundImage = global::DACN_QuanLyDiemHocSinh_CallAPI.Properties.Resources.school;
+            this.panel12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel12.Location = new System.Drawing.Point(951, 21);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(220, 206);
+            this.panel12.TabIndex = 16;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Chartreuse;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.button1.Location = new System.Drawing.Point(664, 233);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(130, 45);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "Hiển thị DS";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Score
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1079, 695);
+            this.ClientSize = new System.Drawing.Size(1243, 756);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
@@ -550,13 +580,11 @@
         private System.Windows.Forms.Button btnFInd;
         private System.Windows.Forms.ComboBox cbxSubjectID;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cbxClassID;
+        private System.Windows.Forms.ComboBox cbxStudentID;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnNew;
-        private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.TextBox txbLastTest;
         private System.Windows.Forms.Label label12;
@@ -565,5 +593,9 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnFindSubID;
+        private System.Windows.Forms.Button btnFindStuID;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Button button1;
     }
 }

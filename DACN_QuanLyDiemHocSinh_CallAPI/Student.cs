@@ -120,7 +120,7 @@ namespace DACN_QuanLyDiemHocSinh_CallAPI
             dataGridView1.ReadOnly = true;
             if (data_getall.Count != 0)
             {
-                MessageBox.Show($"Tìm được {data_getall.Count} học sinh có mã {find_id} ! ", "Thông báo");
+                MessageBox.Show($"Tìm được học sinh trong danh sách có mã "+ find_id, "Thông báo");
                 dataGridView1.DataSource = data_getall;
             }
             else
@@ -146,6 +146,11 @@ namespace DACN_QuanLyDiemHocSinh_CallAPI
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private async void button1_Click(object sender, EventArgs e)
+        {
+            await GetAllStudent();
         }
     }
 }

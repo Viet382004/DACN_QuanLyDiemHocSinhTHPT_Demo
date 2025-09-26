@@ -20,7 +20,7 @@ namespace DACN_QuanLyDiemHocSinh_CallAPI.Class
         public string TenMon { get; set; }
         [DisplayName("Học kỳ")]
 
-        public float HocKy { get; set; }
+        public string HocKy { get; set; }
         [DisplayName("Năm học")]
 
         public string NamHoc { get; set; }
