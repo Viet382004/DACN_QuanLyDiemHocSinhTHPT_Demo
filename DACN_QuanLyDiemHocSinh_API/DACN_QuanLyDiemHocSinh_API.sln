@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DACN_QuanLyDiemHocSinh_API", "DACN_QuanLyDiemHocSinh_API.csproj", "{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6CB672B-4BE8-4B69-89F9-E2ECBBBBA2BA}
+	EndGlobalSection
+EndGlobal

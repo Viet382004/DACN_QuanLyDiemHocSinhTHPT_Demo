@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|d:\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - htttt\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ demo\\dacn_quanlydiemhocsinh_api\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|solutionrelative:controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|d:\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - htttt\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ demo\\dacn_quanlydiemhocsinh_api\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|d:\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - htttt\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ demo\\dacn_quanlydiemhocsinh_api\\controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|solutionrelative:controllers\\scorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|d:\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - htttt\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ demo\\dacn_quanlydiemhocsinh_api\\dto\\scoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|solutionrelative:dto\\scoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|d:\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - htttt\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ demo\\dacn_quanlydiemhocsinh_api\\dto\\subjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|solutionrelative:dto\\subjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|d:\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - htttt\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ demo\\dacn_quanlydiemhocsinh_api\\dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|solutionrelative:dto\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|d:\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - htttt\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ demo\\dacn_quanlydiemhocsinh_api\\models\\hoc_sinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|solutionrelative:models\\hoc_sinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|d:\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - htttt\\\u0111\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ demo\\dacn_quanlydiemhocsinh_api\\models\\quanlydiemhocsinh.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{3663AE75-6482-4CE2-A92C-DD0C982F3CAD}|DACN_QuanLyDiemHocSinh_API.csproj|solutionrelative:models\\quanlydiemhocsinh.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubjectDTO.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\DTO\\SubjectDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\SubjectDTO.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\DTO\\SubjectDTO.cs",
+              "RelativeToolTip": "DTO\\SubjectDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T14:03:49.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentDTO.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\DTO\\StudentDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\StudentDTO.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\DTO\\StudentDTO.cs",
+              "RelativeToolTip": "DTO\\StudentDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T14:02:49.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HOC_SINH.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Models\\HOC_SINH.cs",
+              "RelativeDocumentMoniker": "Models\\HOC_SINH.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Models\\HOC_SINH.cs",
+              "RelativeToolTip": "Models\\HOC_SINH.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T13:51:01.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScoreDTO.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\DTO\\ScoreDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ScoreDTO.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\DTO\\ScoreDTO.cs",
+              "RelativeToolTip": "DTO\\ScoreDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T13:44:17.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScoreController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Controllers\\ScoreController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ScoreController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Controllers\\ScoreController.cs",
+              "RelativeToolTip": "Controllers\\ScoreController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T13:40:20.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SubjectController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "Controllers\\SubjectController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T13:40:03.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAUwCUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T13:39:44.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuanLyDiemHocSinh.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Models\\QuanLyDiemHocSinh.edmx",
+              "RelativeDocumentMoniker": "Models\\QuanLyDiemHocSinh.edmx",
+              "ToolTip": "D:\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh - HTTTT\\\u0110\u1ED3 \u00E1n chuy\u00EAn ngh\u00E0nh _ Demo\\DACN_QuanLyDiemHocSinh_API\\Models\\QuanLyDiemHocSinh.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\QuanLyDiemHocSinh.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-09-25T13:38:51.918Z",
+              "EditorCaption": " [Diagram1]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 100,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\bin\Debug\DACN_QuanLyDiemHocSinh_CallAPI.exe.config
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\bin\Debug\DACN_QuanLyDiemHocSinh_CallAPI.exe
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\bin\Debug\DACN_QuanLyDiemHocSinh_CallAPI.pdb
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\bin\Debug\Newtonsoft.Json.dll
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\bin\Debug\Newtonsoft.Json.xml
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.csproj.AssemblyReference.cache
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.Login.resources
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.Properties.Resources.resources
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.csproj.GenerateResource.cache
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.csproj.CoreCompileInputs.cache
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_Qua.ED85E50E.Up2Date
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.exe
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.pdb
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.AdminManagement.resources
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.Score.resources
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.Student.resources
+D:\Đồ án chuyên nghành - HTTTT\Đồ án chuyên nghành _ Demo\DACN_QuanLyDiemHocSinh_CallAPI\obj\Debug\DACN_QuanLyDiemHocSinh_CallAPI.Subject.resources
