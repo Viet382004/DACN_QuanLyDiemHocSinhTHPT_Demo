@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,6 +14,12 @@ namespace DACN_QuanLyDiemHocSinh_CallAPI.Class
         public string MaHS { get; set; }
         [DisplayName("Tên HS")]
         public string HoTenHS { get; set; }
+        [DisplayName("Giới tính")]
+        public string GioiTinh { get; set; }
+        [DisplayName("Mã lớp")]
+        public string MaLop { get; set; }
+        [DisplayName("Tên lớp")]
+        public string TenLop { get; set; }
         [DisplayName("Mã môn")]
         public string MaMon { get; set; }
         [DisplayName("Têm môn")]

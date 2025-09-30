@@ -9,6 +9,9 @@ namespace DACN_QuanLyDiemHocSinh_API
 	{
         public int MaHS { get; set; }
         public string HoTenHS { get; set; }
+        public string GioiTinh { get; set; }
+        public int? MaLop { get; set; }
+        public string TenLop { get; set; }
         public int MaMon { get; set; }
         public string TenMon { get; set; }
         public int HocKy { get; set; }
